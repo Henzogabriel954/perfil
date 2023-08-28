@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair+Display', sans-serif;
+}
+body {
+    min-height: 100vh;
+    background-color: #0c192c;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.menu a {
+    margin: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #134e86;
+    border-radius: 25px;
+    color: #e7e7e7;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-decoration: none;
+    transition: .5s;
+}
+.menu a:hover {
+    letter-spacing: .2em;
+}
+
+h1  {
+    text-align: center;
+    color: #fff;
+}
