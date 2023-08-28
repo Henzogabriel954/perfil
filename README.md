@@ -1,1 +1,1 @@
-![]https://snowfy.store/img/my.jpg
+![](https://snowfy.store/page/sit.html)
