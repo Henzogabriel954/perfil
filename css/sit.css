@@ -31,7 +31,7 @@ body {
     content: '';
     position: absolute;
     inset: -140px 140px;
-    background: linear-gradient(315deg, #7800af, #ff0000);
+    background: linear-gradient(315deg, #4a006d, #080080);
     transition: .5s;
     animation: animar 4s linear infinite;
     margin: -20px;
@@ -63,7 +63,7 @@ body {
 .conteudo {
     position: absolute;
     inset: 8px;
-    border: 6px solid #180030;
+    border: 6px solid #02001b;
     z-index: 2;
     border-radius: 50%;
     overflow: hidden;
