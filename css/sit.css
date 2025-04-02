@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair+Display', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 body {
@@ -14,18 +14,18 @@ body {
 
 
 .caixa {
-    position: relative;
-    z-index: 9;
-    top: 170px;
-    left: 170px;
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
     background: rgba(04, 03, 05, .5);
     border-radius: 50%;
     display: inline-block;
     transform: translate(-50%, -50%);
     overflow: hidden;
 }
+
 
 .caixa::before {
     content: '';
@@ -93,7 +93,7 @@ body {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'layfair+Display';
+    font-family: 'Playfair Display', serif;
 }
 
 .conteudo >span {
@@ -120,9 +120,18 @@ body {
 }
 
 .min {
-    text-align: left;
+    text-align: center; 
     color: white;
-    margin: 40px 96px;
-    font-family: 'Playfair+Display';
+    margin: 40px auto; 
+    font-family: 'Playfair Display', serif; 
     user-select: none;
+    display: block; 
+    width: fit-content; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 35vh; 
 }
